@@ -21,37 +21,34 @@ body {
 	text-align: center;
 }
 
-#container {
-	margin: 0 auto;
-	width: 1200px;
+.container-fluid {
 	height: 100%;
-	background: url('../img/dock.png');
-	background-size: 1200px;
-	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
+	background: url('../img/dock.png') no-repeat center center fixed;
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	background-size: cover;
 }
 
 #content {
 	display: inline-block;
 	vertical-align: bottom;
 	border-radius: 20px;
-	/*border: 1px dashed white;*/
 	padding: 20px;
 	margin-top: 20%;
-	/*background-color: #A4B3C8;*/
 }
 
 #title {
 	font-size: 20px;
 }
 
-.bracket {
-	font-family: 'Walkway';
-	display: inline-block;
-	font-size: 70px;
-}
-
 span {
 	font-size: 50px;
 	letter-spacing: 5px;
+}
+
+.bracket h1, .bracket {
+	font-family: 'Walkway';
+	display: inline-block;
+	font-size: 140px;
 }
