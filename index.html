@@ -1,38 +1,42 @@
 
 <html>
 <head>
-	<title>Coming Soon</title>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<title>Josh Mosh</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+	
 	<script type="text/javascript" src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<link rel="shortcut icon" href="static/img/favicon.ico" />
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src='static/js/joshmosh.js'></script>
+
+	<link rel="shortcut icon" href="static/img/favicon.ico" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="static/css/comingsoon.css">
 </head>
 <body>
 	<div class='container-fluid'>
 
 		<div class='header_bg' style='display:none'></div>
-		
+
 		<div class='row'>
-			<div class='col-md-12 header'>
+			<div class='col-xs-12 header'>
 				<ul class='header_left'>
-					<li>
-						<a href='#' id='home'>
-							<h4 class='active'>Home</h4>
-						</a>
-					</li>
+					<a href='#' id='home'>
 						<li>
-							<a href='#' id='about'>
-								<h4 class='inactive'>Resum&#233</h4>
-							</a>
+							<h4 class='active'>Home</h4>
 						</li>
-						<div style='display:none'>
+					</a>
+					<a href='#' id='about'>
+						<li>
+							<h4 class='inactive'>Resum&#233</h4>
+						</li>
+					</a>
+					<div style='display:none'>
 						<li><a href='#' id='portfolio'><h4 class='inactive'>Portfolio</h4></a></li>
 						<li><a href='#' id='resume'><h4 class='inactive'>Resum&#233</h4></a></li>
 					</div>
-					
 				</ul>
 			</div>
 		</div>
@@ -40,40 +44,46 @@
 		<div class='home'>
 			<div class='row'>
 				<div class='col-xs-12'>
-					<h1 class='bracket'>{</h1>
-					<h1 id='Title'>www. <span>JoshMosh</span>.com</h1>
-					<h1 class='bracket'>}</h1>
+					<div class='home-content'>
+						<h1 class='bracket'>{</h1>
+						<h1 id='Title'>www. <span>JoshMosh</span>.com</h1>
+						<h1 class='bracket'>}</h1>
+					</div>
 				</div>
 			</div>
 
 			<div id	='social'>
-				<ul>
-					<a href="https://twitter.com/Josh_Mosh" target="_blank">
-						<li>
-							<img src="static/img/twitter.png" alt-src="static/img/twitterwhite.gif">
-						</li>
-					</a>
-					<a href="https://www.facebook.com/Joshua.Neal.Gillespie" target="_blank">
-						<li>
-							<img src="static/img/facebook.png" alt-src="static/img/facebookwhite.gif">
-						</li>
-					</a>
-					<a href="http://instagram.com/joshmosh" target="_blank">
-						<li>
-							<img src="static/img/insta.png" alt-src="static/img/instawhite.gif">
-						</li>
-					</a>
-					<a href="http://www.linkedin.com/profile/view?id=327025556&trk=nav_responsive_tab_profile" target="_blank">
-						<li>
-							<img src="static/img/linkedin.png" alt-src="static/img/linkedinwhite.gif">
-						</li>
-					</a>
-					<a href="https://github.com/Josh-Mosh" target="_blank">
-						<li>
-							<img src="static/img/github.png" alt-src="static/img/githubwhite.png">
-						</li>
-					</a>
-				</ul>
+				<div class='row'>
+					<div >
+						<ul class='col-xs-12'>
+							<a href="https://twitter.com/Josh_Mosh" target="_blank" id='twitter'>
+								<li>
+									<img src="static/img/twitter.png" alt-src="static/img/twitterwhite.gif">
+								</li>
+							</a>
+							<a href="https://www.facebook.com/Joshua.Neal.Gillespie" target="_blank">
+								<li>
+									<img src="static/img/facebook.png" alt-src="static/img/facebookwhite.gif">
+								</li>
+							</a>
+							<a href="http://instagram.com/joshmosh" target="_blank">
+								<li>
+									<img src="static/img/insta.png" alt-src="static/img/instawhite.gif">
+								</li>
+							</a>
+							<a href="http://www.linkedin.com/profile/view?id=327025556&trk=nav_responsive_tab_profile" target="_blank">
+								<li>
+									<img src="static/img/linkedin.png" alt-src="static/img/linkedinwhite.gif">
+								</li>
+							</a>
+							<a href="https://github.com/Josh-Mosh" target="_blank" id='github'>
+								<li>
+									<img src="static/img/github.png" alt-src="static/img/githubwhite.png">
+								</li>
+							</a>
+						</ul>
+					</div>
+				</div>
 			</div>
 
 		</div>
