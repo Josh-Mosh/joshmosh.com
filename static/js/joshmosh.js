@@ -8,14 +8,13 @@ $(document).ready(function(){
 	})	
 
 	$(window).scroll(function(){
-		if($('body').scrollTop() < $('.about').offset().top-150)
+		if($('body').scrollTop() < $('.portfolio').offset().top-150)
 		{
 			$('.header_left h4').attr('class', 'inactive');
 			$('#home').children().children().attr('class', 'active');
-			$('.header').removeClass('head_bg');
 			$('.header_bg').fadeOut();
 		}	
-		if($('body').scrollTop()+150 >= $('.about').offset().top)
+		if($('body').scrollTop()+150 >= $('.portfolio').offset().top)
 		{
 			$('.header_left h4').attr('class', 'inactive');
 			$('#about').children().children().attr('class', 'active');
@@ -37,24 +36,24 @@ $(document).ready(function(){
 
 	$('#about').click(function(){
 		$('body').animate({
-		   scrollTop: $(".about").offset().top-75
+		   scrollTop: $(".portfolio").offset().top-75
 		}, 1000);
 		return false;
 	})
 
-	$('#portfolio').click(function(){
-		$('body').animate({
-		   scrollTop: $(".portfolio").offset().top-75
-		});
-		return false;
-	})
+	// $('#portfolio').click(function(){
+	// 	$('body').animate({
+	// 	   scrollTop: $(".portfolio").offset().top-75
+	// 	});
+	// 	return false;
+	// })
 
-	$('#resume').click(function(){
-		$('body').animate({
-		   scrollTop: $(".resume").offset().top-75
-		});
-		return false;
-	})
+	// $('#resume').click(function(){
+	// 	$('body').animate({
+	// 	   scrollTop: $(".resume").offset().top-75
+	// 	});
+	// 	return false;
+	// })
 	
 
 	$('#social ul a').hover(function()
