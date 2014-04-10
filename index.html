@@ -26,7 +26,7 @@
 			<div class='row'>
 				<div class='col-md-12 home-content'>
 						<h1 class='bracket'>{</h1>
-						<h1 id='Title'>www. <span class='title'>JoshMosh</span>.com</h1>
+						<h1 id='Title'>www. <span class='title'>&nbsp;JoshMosh&nbsp;</span>.com</h1>
 						<h1 class='bracket'>}</h1>
 				</div>
 			</div>
@@ -58,7 +58,11 @@
 
 
 		<div class='about'>
-			<h1>About Josh Gillespie</h1>
+			<h1>About</h1>
+		</div> <!-- CLOSES ABOUT -->
+
+		<div class='portfolio'>
+		<h1>Portfolio</h1>
  
 		<div id="tabs">
 		  <ul>
@@ -67,39 +71,51 @@
 		    <li><a href="#portfolio_ruby">Ruby / Ruby on Rails</a></li>
 		  </ul>
 		  <div id="portfolio_php" class='project_content row'>
-		  		<div class='col-md-2'>
-		  			<ul class='project_preview_list'>
-		  				<li>
-		  					<a href="#unchained_div">
-		  						<div class='project_preview_inner'>
-		  							<h4 class='proect_title'>Unchained Coffee Bean</h4>
-		  							<img src="static/img/projects/unchained/unchained_preview.png">
-		  						</div>
-		  					</a>
-		  				</li>
-		  				<li>The Wall</li>
-		  				<li>Buying / Selling</li>
-		  			</ul>
-		  		</div>
-		  		<div id='project_window' class='col-md-10'>
-		  			<div class='project_top'>
-		  				<h3>Unchained Coffee Bean</h3>
-		    			<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, </p>
-		  			</div>
-		  			<div class='project_bottom'>
-			  			<div class='row project_images'>
-			  				<img class='col-md-4 project_img' src="static/img/projects/unchained/unchained_home.png">
-			  				<img class='col-md-4 project_img' src="static/img/projects/unchained/unchained_add.png">
-			  				<img class='col-md-4 project_img' src="static/img/projects/unchained/unchained_shop.png">
-							</div>
-							<div class='row github_link'>
-								<a href="https://github.com/Josh-Mosh/UnchainedCoffee" target='_blank'>
-									<img src="static/img/github.png">
-									<p>See the Code on Github</p>
-								</a>
-							</div>
+
+	  		<div class='col-md-2'>
+	  			<ul class='project_preview_list'>
+	  				<li class='selected preview_list_item' id='unchained_div'>
+	  					<a href="">
+	  						<div class='project_preview_inner'>
+	  							<h4 class='proect_title'>Unchained Coffee Bean</h4>
+	  							<img src="static/img/projects/unchained/unchained_preview.png">
+	  						</div>
+	  					</a>
+	  					<div class='project_info' title= 'Unchained Coffee Bean' description= 'This is a web app built to help coffee lovers find chain-free coffee shops near them or around the world. The data base is built by users who submit coffee shops where then other users can view that information on a large map.' firstsrc="static/img/projects/unchained/unchained_home.png" secondsrc="static/img/projects/unchained/unchained_add.png" thirdsrc="static/img/projects/unchained/unchained_shop.png" github='https://github.com/Josh-Mosh/unchainedcoffee'></div>
+	  				</li>
+	  				<li class='unselected preview_list_item' id='railswall_div'>
+	  					<a href="">
+	  						<div class='project_preview_inner'>
+	  							<h4 class='proect_title'>The Wall</h4>
+	  							<img src="static/img/projects/railswall/railswall_preview.png">
+	  						</div>
+	  					</a>
+	  					<div class='project_info' title= 'The Wall' description= 'Users, Posts, Comments example built in ruby on rails' firstsrc="static/img/projects/railswall/1.png" secondsrc="static/img/projects/railswall/2.png" thirdsrc="static/img/projects/railswall/3.png" github='https://github.com/Josh-Mosh/The-Wall-RoR'></div>
+	  					</a>
+	  				</li>
+	  				<li>Buying / Selling</li>
+	  			</ul>
+	  		</div>
+
+	  		<div id='project_window' class='col-md-10'>
+	  			<div class='project_top'>
+	  				<h3>Unchained Coffee Bean</h3>
+	    			<p>This is a web app built to help coffee lovers find chain-free coffee shops near them or around the world. The data base is built by users who submit coffee shops where then other users can view that information on a large map.</p>
+	  			</div>
+	  			<div class='project_bottom'>
+		  			<div class='row project_images'>
+		  				<img class='col-md-4 project_img img1' src="static/img/projects/unchained/unchained_home.png">
+		  				<img class='col-md-4 project_img img2' src="static/img/projects/unchained/unchained_add.png">
+		  				<img class='col-md-4 project_img img3' src="static/img/projects/unchained/unchained_shop.png">
 						</div>
-		  	</div>
+						<div class='row github_link'>
+							<a href="https://github.com/Josh-Mosh/UnchainedCoffee" target='_blank'>
+								<img src="static/img/github.png">
+								<p>See the Code on Github</p>
+							</a>
+						</div>
+					</div>
+	  		</div>
 
 		  </div>
 		  <div id="portfolio_js">
@@ -112,14 +128,10 @@
 
 		</div>
 
-		</div> <!-- CLOSES ABOUT -->
-
-		<div class='portfolio'>
-			<h1>Portfolio Section</h1>
-
 		</div>
 
 		<div class='resume'>
+				<h1>Resume</h1>
 				<div class='resume_header'>
 					<div class='resume_header_top row'>
 						<div class='col-md-5'>
@@ -262,8 +274,7 @@
 
 			<script type="text/javascript">
 				$(document).ready(function(){
-
-					$('.project_img').click(function(){
+					$(document).on('click', '.project_img', function(){
 						$('#myModal').modal();
 						return false;
 					})

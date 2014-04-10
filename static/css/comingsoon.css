@@ -159,18 +159,35 @@ body {
 }
 
 	.about {
-		background-color: white;
+		background-color: #555555;
 	}
 
-		.about img {
+		.about img, .portfolio img {
 			width: 100%;
 			display: block;
 		}
 
+		.about h1, .portfolio h1, .resume h1 {
+			padding-left: 25px;
+		}
+
 .portfolio {
-	padding: 40px;
-	background-color: grey;
-}	
+	background-color: white;
+	border-bottom: 1px solid silver;
+}
+
+	.ui-state-default a {
+		color: #555555;
+	}
+
+	.ui-state-active a{
+		border-bottom: 4px solid #5196c2;
+		outline: none;
+		color: black;
+	}
+
+	
+
 	.project_content {
 		padding: 0px;
 	}
@@ -187,7 +204,6 @@ body {
 		}
 
 		.project_preview_list li {
-			background-color: #5196c2;
 			max-width: 200px;
 			margin-bottom: 10px;
 			padding: 10px;
@@ -199,6 +215,10 @@ body {
 
 		.project_preview_list a {
 			color: black;
+		}
+
+		.project_preview_list .selected {
+			background-color: #5196c2;
 		}
 
 	#project_window {
@@ -230,7 +250,7 @@ body {
 
 		.project_images img {
 			max-width: 300px;
-			margin: auto;
+			margin: 10px auto;
 		}
 			.project_img a{
 				cursor: pointer;
@@ -255,8 +275,6 @@ body {
 		.github_link img {
 			width: 24px;
 		}
-
-
 
 span {
 	color: #5196c2;
