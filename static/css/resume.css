@@ -4,6 +4,7 @@
 	padding: 20px;
 	font-family: arial;
 	text-align: left;
+	padding-top: 40px;
 }
 
 	.resume_header {
@@ -98,7 +99,6 @@
 			.resume_job {
 				margin-bottom: 40px;
 			}
-
 
 		.education .resume_body_right h4 {
 			margin-bottom: 3px;

@@ -12,9 +12,9 @@
 body {
 	font-family: 'Champagne';
 	background: url('../img/waterbgblue2.png') center center no-repeat;
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*-o-background-size: cover;*/
+/*	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -152,29 +152,32 @@ body {
 		margin-right: 0px;
 	}
 
-.about, .portfolio {
+
+
+.about {
+	background-color: #555555;
+}
+
+	.about img, .portfolio img {
+		width: 100%;
+		display: block;
+	}
+
+	.about h1, .portfolio h1, .resume h1 {
+		padding-left: 25px;
+	}
+
+.portfolio {
 	font-family: sans-serif;
 	font-size: 20px;
 	padding: 20px;
-}
-
-	.about {
-		background-color: #555555;
-	}
-
-		.about img, .portfolio img {
-			width: 100%;
-			display: block;
-		}
-
-		.about h1, .portfolio h1, .resume h1 {
-			padding-left: 25px;
-		}
-
-.portfolio {
 	background-color: white;
 	border-bottom: 1px solid silver;
 }
+
+	#portfolio_php, #portfolio_js, #portfolio_ruby {
+		margin-top: 10px;
+	}
 
 	.ui-state-default a {
 		color: #555555;
@@ -186,7 +189,6 @@ body {
 		color: black;
 	}
 
-	
 
 	.project_content {
 		padding: 0px;
@@ -195,6 +197,8 @@ body {
 	.project_preview_list {
 		list-style-type: none;
 		padding-left: 0px;
+		max-height: 500px;
+		overflow: scroll;
 	}
 
 		.project_preview_inner {
@@ -262,6 +266,10 @@ body {
 				/*cursor: url(images/my-cursor.png), auto;*/
 			}
 
+		.github_link {
+			padding-left: 10px;
+		}
+
 		.github_link p, .github_link img {
 			display: inline-block;
 		}
@@ -299,4 +307,9 @@ span {
 	padding: 0px;
 }
 
-	
+
+iframe {
+	width: 100%;
+	height: 500px;
+	margin: 10px;
+}
