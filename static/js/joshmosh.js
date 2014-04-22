@@ -93,7 +93,6 @@ $(document).ready(function(){
 
  		var title = $(this).siblings('.project_info').attr('title');
  		var description = $(this).siblings('.project_info').attr('description');
- 		// var firstsrc = $(this).siblings('.project_info').attr('firstsrc');
  		var github = $(this).siblings('.project_info').attr('github');
 
  		$('.project_top').html('<h3>'+title+'</h3><p>'+description+'</p>');
@@ -127,8 +126,17 @@ $(document).ready(function(){
  			$('.project_frame').html("<iframe src='"+framesrc+"''></iframe>");
  		}
  		$('.github_link a').attr('href', github);
- 		
+
  		return false;
  	})
-	 
+
+	// Modal Portfolio Images
+	$(document).ready(function(){
+		$(document).on('click', '.project_img', function(){
+			$('#myModal').modal();
+			return false;
+		})
+	})
+
+
 })

@@ -10,7 +10,6 @@
 }
 
 body {
-	font-family: 'Champagne';
 	background: url('../img/waterbgblue2.png') center center no-repeat;
 /*	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -72,12 +71,14 @@ body {
 		.header_left a {
 			text-decoration: none;
 		}
+
 .container-fluid {
 	padding: 0px;
 	color: black;
 }
 
 .home {
+	font-family: 'Champagne';
 	height: 100%;
 	padding: 10% 0;
 	text-align: center;
@@ -283,6 +284,17 @@ body {
 		.github_link img {
 			width: 24px;
 		}
+
+.footer {
+	padding: 20px;
+	background-color: #333333;
+	color: #555555;
+	text-align: center;
+}
+
+	.footer a {
+		color: #555555;
+	}
 
 span {
 	color: #5196c2;
